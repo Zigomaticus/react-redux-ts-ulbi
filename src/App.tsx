@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      App
+      <UserList />
+    </div>
+  );
+};
 
-export default App
+export default App;
