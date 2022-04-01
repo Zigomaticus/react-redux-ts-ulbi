@@ -1,6 +1,6 @@
 import React, { FC, useEffect } from "react";
 import { useTypeSelector } from "./hooks/useTypeSelector";
-import { useActions } from "./useActions";
+import { useActions } from "./hooks/useActions";
 
 const UserList: FC = () => {
   const { loading, users, error } = useTypeSelector((state) => state.user);
