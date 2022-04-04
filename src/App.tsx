@@ -1,4 +1,4 @@
-import React from "react";
+// Components
 import TodoList from "./components/TodoList";
 import UserList from "./components/UserList";
 

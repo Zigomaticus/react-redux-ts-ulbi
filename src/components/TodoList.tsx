@@ -1,4 +1,6 @@
+// Libraries
 import React, { FC, useEffect } from "react";
+// Hooks
 import { useActions } from "./hooks/useActions";
 import { useTypeSelector } from "./hooks/useTypeSelector";
 
